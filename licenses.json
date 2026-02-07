@@ -1,0 +1,23 @@
+{
+  "ABCD": {
+    "in_use": false,
+    "last_check": 0,
+    "start_date": "2026-01-01",
+    "duration_days": 365,
+    "revoked": true
+  },
+  "1234": {
+    "in_use": false,
+    "last_check": 0,
+    "start_date": "2026-01-01",
+    "duration_days": 10,
+    "revoked": true
+  },
+  "test": {
+    "in_use": true,
+    "last_check": 1770471646.45323,
+    "start_date": "2026-01-01",
+    "duration_days": null,
+    "revoked": true
+  }
+}
