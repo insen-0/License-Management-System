@@ -18,3 +18,4 @@
   (LMS_server.py가 중단되면 LMS_client.py도 종료되므로, LMS_server는 항시 작동 중이어야 합니다.)
 
 - LMS_GUI.py를 사용하여 라이선스 키를 쉽게 생성,수정,삭제할 수 있습니다.
+![LMS_GUI 예시 이미지](https://github.com/insen-0/License-Management-System/blob/main/LMS_GUI_%EC%98%88%EC%8B%9C.png)
