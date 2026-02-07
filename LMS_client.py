@@ -10,7 +10,7 @@ SERVER_URL = "http://127.0.0.1:5000"  # 서버의 공인(외부) IP:(포트)5000
 # 라이선스 상태를 주기적으로 확인
 def check_license_status_periodically(license_key):
     while True:
-        time.sleep(30)
+        time.sleep(60)
         try:
             response = requests.post(SERVER_URL + "/check_license", json={"license_key": license_key})
             result = response.json()
